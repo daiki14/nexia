@@ -495,12 +495,12 @@ a {
 # fv
 =========================================================== */
 .fv {
-  background: url(/img/fv_bg.png) no-repeat center center/cover;
+  background: url(../img/fv_bg.png) no-repeat center center/cover;
   position: relative;
 }
 .fv::after {
   content: "";
-  background: url(/img/fv_foot.png) no-repeat center center/cover;
+  background: url(../img/fv_foot.png) no-repeat center center/cover;
   position: absolute;
   width: 100%;
   height: 100px;
@@ -645,7 +645,7 @@ a {
 .appeal {
   padding-top: 30px;
   padding-bottom: 60px;
-  background: url(/img/bg.png) no-repeat top center/cover;
+  background: url(../img/bg.png) no-repeat top center/cover;
   position: relative;
   overflow: hidden;
 }
@@ -926,13 +926,13 @@ a {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: url(/img/icon_triangle.png) no-repeat center center/10px 8px #fff;
+  background: url(../img/icon_triangle.png) no-repeat center center/10px 8px #fff;
 }
 @media print, screen and (min-width: 1024px) {
   .plan__inner .accordion .ac__parent::after {
     width: 35px;
     height: 35px;
-    background: url(/img/icon_triangle.png) no-repeat center center/15px 14px #fff;
+    background: url(../img/icon_triangle.png) no-repeat center center/15px 14px #fff;
     cursor: pointer;
   }
 }
@@ -1151,13 +1151,13 @@ a {
 # user
 =========================================================== */
 .user {
-  background: url(/img/user_bg.png) no-repeat bottom 60px right -100px/400px auto #FEFBEB;
+  background: url(../img/user_bg.png) no-repeat bottom 60px right -100px/400px auto #FEFBEB;
   padding-top: 60px;
   padding-bottom: 80px;
 }
 @media print, screen and (min-width: 1024px) {
   .user {
-    background: url(/img/user_bg.png) no-repeat bottom 60px right/440px auto #FEFBEB;
+    background: url(../img/user_bg.png) no-repeat bottom 60px right/440px auto #FEFBEB;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -1179,7 +1179,7 @@ a {
 }
 .user__slider ul .slick-prev::before {
   content: "";
-  background: url(/img/icon_left.png) no-repeat center center/cover;
+  background: url(../img/icon_left.png) no-repeat center center/cover;
   width: 15px;
   height: 15px;
   display: block;
@@ -1189,7 +1189,7 @@ a {
 }
 .user__slider ul .slick-next::before {
   content: "";
-  background: url(/img/icon_right.png) no-repeat center center/cover;
+  background: url(../img/icon_right.png) no-repeat center center/cover;
   width: 15px;
   height: 15px;
   display: block;
